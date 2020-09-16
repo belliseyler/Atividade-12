@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name=hospitalar, eletrônico,coleta seletiva " />
-  <title>Atividade 12</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" name="hospitalar, eletrônico, coleta seletiva " /> <!--Erro 1 - Não tem keyword para palavras chaves e o valor de name está incorreto-->
+        <title>Atividade 12</title>
 
-  <style>
-    body {
-      background-color: #066a61;
-    }
+        <style>
+            body {
+                background-color: #066a61;
+            }
 
-    h1 {
-      color: crimson
-    
+            h1 {
+                color: crimson;      /*Erro 2 - sem ponto vírgula e o não fechamento das chaves*/
+            }
 
-    p {
-      font-family: verdana;
-      color: black;
-    }
+            p {                        /*Erro 3 - elemento sem efeito na página, por causa do não fechamento da chave*/
+                font-family: verdana; 
+                color: black;
+            }
 
-    #texto {
-      color: blue;
-    }
+            #texto {
+                color: blue;
+            }
 
-    .subtitulo {
-      text-align: center;
-    }
-  </style>
-</head>
+            .subtitulo {  /*Erro 7- A classe dentro de h2 não esta escrita corretamente de acordo com a sintaxe*/
+                text-align: center;
+            }
+        </style>
+    </head>
 
-<body>
-  bgcolor="" background=" imagens/fundo.png" text="black" link="red" alink="green" vlink="black">
-  <p align="center">
-    <img src="imagens/base.png" width="300px" height="300px">
-  </p>
-  <h1 style="color:red;text-align:;font-size:40px">Gestão de Resíduos</h1>
+    <body>
+        <p align="center">
+            <img src="imagens/base.png" width="300px" height="300px"> <!--Erro 4 - Fora de um stye ou de uma tag para a estilização da mesma-->
+        </p>
+        <h1 style="color:red; text-align:center; font-size:40px">Gestão de Resíduos</h1> <!--Erro 5 - Não há valor no atributo text-align-->
 
-  <p id="texto" style="margin-left: 15px;text-align:center;">Adotar ações para reverter esse quadro se faz mais que
-    necessária,
-    principalmente pelas empresas, pois elas são as responsáveis por produzir uma quantidade expressiva de resíduos.
-  </p>
+        <p id="texto" style="margin-left: 15px; text-align:center">Adotar ações para reverter esse quadro se faz mais que necessária,
+            principalmente pelas empresas, pois elas são as responsáveis por produzir uma quantidade expressiva de resíduos.
+        </p>
 
-  <p>A Gestão de Resíduos demonstra ser uma aliada das organizações para eliminar os impactos negativos
-    que os resíduos causam principalmente os associados à destinação final.
-  </p>
+        <p>A Gestão de Resíduos demonstra ser uma aliada das organizações para eliminar os impactos negativos
+            que os resíduos causam principalmente os associados à destinação final.
+        </p>
 
-  <p>Gestão de Residuos<span style="color:red;"> Salva o Meio Ambiente</p>
+        <p>Gestão de Residuos<span style="color:red"> Salva o Meio Ambiente</span></p> <!--Erro 6- A tag span não está com a sintaxe correta de fechamento mas funciona-->
 
-  <h2="subtitulo">Gestão de Resíduos</h2>
+        <h2 class="subtitulo">Gestão de Resíduos</h2> <!--Erro 7- A classe dentro de h2 não esta escrita corretamente de acordo com a sintaxe-->
 
     </body>
 
